@@ -4,6 +4,64 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <!-- NEW ELEMENTS BEGIN-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Julien Eyssartier">
+
+    <title>Julien Eyssartier - UX Strategy Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="stylesheets/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('hki3gch8kngk');
+</script>
+<!-- End of Async Drift Code -->
+
+    <!-- NEW ELEMENTS END-->
 
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Middleman" %></title>
@@ -14,7 +72,378 @@
     <%= javascript_include_tag :all %>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body id="page-top" class="index" class="<%= page_classes %>">
     <%= yield %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="javascripts/jqBootstrapValidation.js"></script>
+    <script src="javascripts/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <!-- <script src="js/freelancer.min.js"></script> -->
+    <script src="javascripts/freelancer.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+
+
+    <script type="text/javascript">
+        window.sr = ScrollReveal({reset: true});
+        sr.reveal('.foo');
+
+
+    </script>
+
+
+
+ 
+
+
+
+
+
+
+    <script type="text/javascript">
+        
+    // var actionContact = document.getElementById('contactBtn') ;
+    // var driftBtn = document.querySelector('iframe');
+
+    // actionContact.addEventListener('click', function() {
+    //     alert('OK');
+    //     driftBtn
+    // });
+
+// var actionContact = document.getElementById('contactBtn') ;
+
+// actionContact.addEventListener('click', function(){
+
+// document.getElementsByTagName('iframe')[0].click();
+
+
+//  });
+
+
+
+
+
+//  $(function() {
+
+//     //     $('#contactBtn').on('click', function() {
+//     //         $('#drift-widget').click();
+//     //     });
+
+
+//     //  });
+
+//     $("#contactBtn").on('click', function() {
+//     var iframe = $("#drift-widget");
+//     iframe.click(); 
+
+// });
+// });
+
+
+
+ 
+
+
+
+
+    // $(function() {
+
+    //     $('#contactBtn').on('click', function() {
+
+    //         $('iframe').addClass('animated flash').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+    //         $(this).removeClass('animated flash');
+    //     });
+
+
+    //     });
+
+    // });
+
+    </script>
+
+
+
+
+
+ 
+
+
+
+ <script type="text/javascript">
+           
+
+            function countdown(){
+                var now = new Date();
+                var eventDate = new Date(2018, 2, 1);
+
+                var currentTiime = now.getTime();
+                var eventTime = eventDate.getTime();
+
+                var remTime = eventTime - currentTiime;
+
+                var s = Math.floor(remTime / 1000);
+                var m = Math.floor(s / 60);
+                var h = Math.floor(m / 60);
+                var d = Math.floor(h / 24);
+
+                h %= 24;
+                m %= 60;
+                s %= 60;
+
+                h = (h < 10) ? "0" + h : h;
+                m = (m < 10) ? "0" + m : m;
+                s = (s < 10) ? "0" + s : s;
+
+                document.querySelectorAll("#days")[0].textContent = d;
+                document.querySelectorAll("#days")[1].textContent = d;
+                document.querySelectorAll("#days")[2].textContent = d;
+                document.querySelectorAll("#days")[0].innerText = d;
+                document.querySelectorAll("#days")[1].innerText = d;
+                document.querySelectorAll("#days")[2].innerText = d;
+
+                document.querySelectorAll("#hours")[0].textContent = h;
+                document.querySelectorAll("#hours")[1].textContent = h;
+                document.querySelectorAll("#hours")[2].textContent = h;
+                document.querySelectorAll("#minutes")[0].textContent = m;
+                document.querySelectorAll("#minutes")[1].textContent = m;
+                document.querySelectorAll("#minutes")[2].textContent = m;
+                document.querySelectorAll("#seconds")[0].textContent = s;
+                document.querySelectorAll("#seconds")[1].textContent = s;
+                document.querySelectorAll("#seconds")[2].textContent = s;
+
+                setTimeout(countdown, 1000);
+            }
+
+            countdown();
+  
+ </script>
+
+
+<script>
+$( "a#contactBtn" ).click(function( event ) {
+  event.preventDefault();
+  $('iframe').addClass('animated flash').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+            $(this).removeClass('animated flash');
+        });
+});
+</script>
+
+
+  <!--   <script>
+
+        $(function() {
+
+            $('#mainVideo').on('mouseover', function(){
+                $('#mainVideo').addClass('animated pulse');
+            })
+        })
+
+    </script> -->
+
+    <style type="text/css">
+
+.countdownContainer{
+
+            transform : translateX(-50%) translateY(-50%);
+            text-align: center;
+            color: white;
+
+            padding: 10px;
+
+        }
+
+        .info {
+            font-size: 15px;
+        }
+
+
+/*    iframe {
+
+      -vendor-animation-duration: 3s;
+      -vendor-animation-delay: 2s;
+      /*-vendor-animation-iteration-count: infinite;
+
+    }*/
+     
+    /*    
+    video {
+      -webkit-transition:all .3s ease-out;
+      -moz-transition:all .3s ease-out;
+      -ms-transition:all .3s ease-out;
+      -o-transition:all .3s ease-out;
+      transition:all .3s ease-out;
+
+    }
+
+    video:hover {
+      -webkit-transform:translate(0px,-10px);
+      -moz-transform:translate(0px,-10px);
+      -ms-transform:translate(0px,-10px);
+      -o-transform:translate(0px,-10px);
+      transform:translate(0px,-10px);
+
+    }
+
+    img.img-responsive {
+      -webkit-transition:all .3s ease-out;
+      -moz-transition:all .3s ease-out;
+      -ms-transition:all .3s ease-out;
+      -o-transition:all .3s ease-out;
+      transition:all .3s ease-out;
+    }
+
+    img.img-responsive:hover {
+      -webkit-transform:translate(0px,-10px);
+      -moz-transform:translate(0px,-10px);
+      -ms-transform:translate(0px,-10px);
+      -o-transform:translate(0px,-10px);
+      transform:translate(0px,-10px);
+
+    }*/
+    .portfolio-link img {
+          -webkit-transition:all .3s ease-out;
+      -moz-transition:all .3s ease-out;
+      -ms-transition:all .3s ease-out;
+      -o-transition:all .3s ease-out;
+      transition:all .3s ease-out;
+    }
+
+        .portfolio-link img:hover {
+      -webkit-transform:translate(0px,-10px);
+      -moz-transform:translate(0px,-10px);
+      -ms-transform:translate(0px,-10px);
+      -o-transform:translate(0px,-10px);
+      transform:translate(0px,-10px);
+      transition:all .3s ease-out;
+    }
+
+
+    .video_contain {
+          -webkit-transition:all .3s ease-out;
+      -moz-transition:all .3s ease-out;
+      -ms-transition:all .3s ease-out;
+      -o-transition:all .3s ease-out;
+      transition:all .3s ease-out;
+  }
+
+    .video_contain:hover {
+      -webkit-transform:translate(0px,-10px);
+      -moz-transform:translate(0px,-10px);
+      -ms-transform:translate(0px,-10px);
+      -o-transform:translate(0px,-10px);
+      transform:translate(0px,-10px);
+      transition:all .3s ease-out;
+
+    }
+
+    .col-lg-4.col-md-6.text-center {
+          -webkit-transition:all .3s ease-out;
+      -moz-transition:all .3s ease-out;
+      -ms-transition:all .3s ease-out;
+      -o-transition:all .3s ease-out;
+      transition:all .3s ease-out;
+    }
+
+    .col-lg-4.col-md-6.text-center:hover {
+      -webkit-transform:translate(0px,-10px);
+      -moz-transform:translate(0px,-10px);
+      -ms-transform:translate(0px,-10px);
+      -o-transform:translate(0px,-10px);
+      transform:translate(0px,-10px);
+      transition:all .3s ease-out;
+    }
+
+/*    .brand {
+    -moz-box-shadow: 1px 1px 2px 0px #656565;
+    -webkit-box-shadow: 1px 1px 2px 0px #656565;
+    -o-box-shadow: 1px 1px 2px 0px #656565;
+    box-shadow: 1px 1px 2px 0px #656565;
+    }*/
+
+    .text-muted {
+        font-size: medium;
+
+
+    }
+
+    .w-iconbox-icon {
+    background-color: #d23525;
+    text-align: center;
+    font-size: 28px;
+    line-height: 70px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: absolute;
+    top: 13px;
+    left: 28px;
+    }
+
+    .w-iconbox-text > p {
+            line-height: 1.6;
+
+    }
+
+    .methodeRaw {
+        margin-bottom: 40px;
+    }
+
+    #about p {
+        font-family: 'Abel', sans-serif;
+    }
+
+    .footer-above p {
+        font-family: 'Abel', sans-serif;
+    }
+    .w-iconbox-h {
+
+    padding: 17px;
+    background: white;
+    min-height: 333px;
+    font-family: 'Abel', sans-serif;
+
+    -webkit-box-shadow: 13px 13px 0px 0px rgb(239, 103, 47);
+    -moz-box-shadow: 13px 13px 0px 0px rgb(239, 103, 47);
+    -o-box-shadow: 13px 13px 0px 0px rgb(239, 103, 47);
+    box-shadow: 13px 13px 0px 0px rgb(239, 103, 47);
+    }
+
+    .blue div .w-iconbox-h  {
+        box-shadow: 13px 13px 0px 0px rgb(76, 162, 255); 
+            -webkit-box-shadow: 13px 13px 0px 0px rgb(76, 162, 255);
+    -moz-box-shadow: 13px 13px 0px 0px rgb(76, 162, 255);
+    -o-box-shadow: 13px 13px 0px 0px rgb(76, 162, 255);
+
+    }
+
+    .green div .w-iconbox-h  {
+        box-shadow: 13px 13px 0px 0px rgb(240, 191, 52);
+            -webkit-box-shadow: 13px 13px 0px 0px rgb(240, 191, 52);
+    -moz-box-shadow: 13px 13px 0px 0px rgb(240, 191, 52);
+    -o-box-shadow: 13px 13px 0px 0px rgb(240, 191, 52);
+
+    }
+
+    #service {
+        background: #f5f5f5;
+    }
+
+    </style>
   </body>
 </html>

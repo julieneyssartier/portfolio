@@ -10,3 +10,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
 gem 'middleman', '>= 4.0.0'
+
+gem 'less'
+
+gem 'therubyracer'
