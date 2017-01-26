@@ -705,3 +705,17 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+@font-face {
+font-family: 'notolight';
+src: url('NotoSansCJKsc-Light.otf') ;
+     
+}
+
+@font-face {
+font-family: 'notobold';
+src: url('NotoSansMonoCJKsc-Bold.otf') ;
+     
+}
+
+
