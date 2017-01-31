@@ -49,6 +49,56 @@ hr.star-primary {
 .service-box {
   padding-top: 2rem;
 }
+
+#mainVideo {
+  position: absolute;
+    width: 209px;
+    height: auto;
+    top: 99px;
+    left: 157px;
+}
+
+.video_contain {
+  display: inline-flex; 
+  width: 500px; 
+  height: 600px;
+  position: relative;    
+  margin-top: 42px;
+}
+
+.language-option {
+    border-radius: 0px;
+    -moz-box-shadow: 13px 13px 0px 0px rgba(47, 47, 47, 0.73);
+    -webkit-box-shadow: 13px 13px 0px 0px rgba(47, 47, 47, 0.73);
+    -o-box-shadow: 13px 13px 0px 0px rgba(47, 47, 47, 0.73);
+    box-shadow: 13px 13px 0px 0px rgba(47, 47, 47, 0.73);
+        padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 1.6em;
+}
+
+@media(max-width: 768px) {
+
+.video_contain {
+  max-width: 100vw;
+  height: 470px;
+}
+
+#mainVideo {
+  display: none;
+}
+
+.language-option {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+  box-shadow: none;
+}
+
+.container > .navbar-header {
+  background-color: white;
+}
+}
 /*
 
 hr.star-primary {
