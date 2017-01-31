@@ -81,7 +81,18 @@ hr.star-primary {
   margin-left: 88px;
 }
 
+.w-iconbox-title {
+  margin-left: 88px;
+    font-size: large;
+}
+
 @media(max-width: 768px) {
+
+  .w-iconbox-title {
+    margin-left: 75px;
+    font-size: 1.3em;
+
+  }
 
   section h2 {
     font-size:2.4em !important;
